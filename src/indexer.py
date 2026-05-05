@@ -38,8 +38,10 @@ class Neo4jGraphManager:
                 if not predicate:
                     continue
                 query = f"""
-                MERGE (n1:Entity {{id: $subject}})
-                MERGE (n2:Entity {{id: $object}})
+                MERGE (n1:Entity {{name: $subject}})
+                ON CREATE SET n1.id = $subject
+                MERGE (n2:Entity {{name: $object}})
+                ON CREATE SET n2.id = $object
                 MERGE (n1)-[:{predicate}]->(n2)
                 """
                 session.run(query, subject=t.subject, object=t.object)
@@ -56,15 +58,15 @@ class Neo4jGraphManager:
             try:
                 session.run('''
                 CREATE VECTOR INDEX entity_embeddings IF NOT EXISTS 
-                FOR (n:Entity) ON (n.embedding) 
+                FOR (n:Entity) ON (n.embedding)
                 OPTIONS {indexConfig: {`vector.dimensions`: 1536, `vector.similarity_function`: 'cosine'}}
                 ''')
             except Exception as e:
                 print("Vector index exist or error:", e)
                 
             # Fetch nodes without embeddings
-            result = session.run("MATCH (n:Entity) WHERE n.embedding IS NULL RETURN n.id AS id")
-            node_ids = [record["id"] for record in result]
+            result = session.run("MATCH (n:Entity) WHERE n.embedding IS NULL RETURN n.name AS name")
+            node_ids = [record["name"] for record in result]
             
             if not node_ids:
                 print("No new nodes to embed.")
@@ -80,10 +82,10 @@ class Neo4jGraphManager:
                 # Update Neo4j
                 query = '''
                 UNWIND $data AS row
-                MATCH (n:Entity {id: row.id})
+                MATCH (n:Entity {name: row.name})
                 SET n.embedding = row.embedding
                 '''
-                data = [{"id": _id, "embedding": vec} for _id, vec in zip(batch_ids, vectors)]
+                data = [{"name": _id, "embedding": vec} for _id, vec in zip(batch_ids, vectors)]
                 session.run(query, data=data)
             print("Embeddings generation complete!")
 
@@ -116,12 +118,9 @@ def main():
     structured_llm = llm.with_structured_output(TriplesExtraction)
 
     total_triples = 0
-    # To save money/time, we might only process first 5-10 chunks, but let's process all if not too many
-    # If the file is very large, limit to first 20 chunks for lab purposes
-    MAX_CHUNKS = 15
-    print(f"Limiting to first {MAX_CHUNKS} chunks for faster processing in Lab...")
-    for i, chunk in enumerate(chunks[:MAX_CHUNKS]):
-        print(f"Processing chunk {i+1}/{min(len(chunks), MAX_CHUNKS)}...")
+    print(f"Processing all {len(chunks)} chunks...")
+    for i, chunk in enumerate(chunks):
+        print(f"Processing chunk {i+1}/{len(chunks)}...")
         try:
             prompt = f"Trích xuất tất cả các thực thể (entities) và mối quan hệ (relationships) từ đoạn văn sau. Trả về dưới dạng triples. Đoạn văn: \n{chunk}"
             result = structured_llm.invoke(prompt)

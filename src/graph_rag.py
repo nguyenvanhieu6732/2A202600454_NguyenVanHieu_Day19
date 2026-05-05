@@ -26,7 +26,7 @@ class GraphRAGQuery:
         res = self.entity_llm.invoke(prompt)
         return res.entity if res else ""
 
-    def get_seed_nodes(self, entity: str, top_k: int = 2) -> list[str]:
+    def get_seed_nodes(self, entity: str, top_k: int = 5) -> list[str]:
         # Generate embedding for the entity string
         query_vector = self.embeddings.embed_query(entity)
         
@@ -34,13 +34,13 @@ class GraphRAGQuery:
         query = """
         CALL db.index.vector.queryNodes('entity_embeddings', $top_k, $query_vector)
         YIELD node, score
-        RETURN node.id AS id, score
+        RETURN node.name AS id, score
         """
         seed_nodes = []
         with self.driver.session() as session:
             try:
                 result = session.run(query, top_k=top_k, query_vector=query_vector)
-                seed_nodes = [record["id"] for record in result if record["score"] > 0.5]
+                seed_nodes = [record["id"] for record in result if record["score"] > 0.3]
             except Exception as e:
                 print("Vector search error (falling back to text search):", e)
                 
@@ -48,8 +48,8 @@ class GraphRAGQuery:
         if not seed_nodes:
             query_fallback = """
             MATCH (n:Entity)
-            WHERE n.id CONTAINS $entity OR toLower(n.id) CONTAINS toLower($entity)
-            RETURN n.id AS id LIMIT $top_k
+            WHERE n.name CONTAINS $entity OR toLower(n.name) CONTAINS toLower($entity)
+            RETURN n.name AS id LIMIT $top_k
             """
             with self.driver.session() as session:
                 result = session.run(query_fallback, entity=entity, top_k=top_k)
@@ -64,13 +64,22 @@ class GraphRAGQuery:
         # Lấy thông tin trong phạm vi 2-hops từ các seed nodes
         query = """
         MATCH (n:Entity)-[r]-(m:Entity)
-        WHERE n.id IN $seed_nodes OR m.id IN $seed_nodes
-        RETURN n.id AS source, type(r) AS relation, m.id AS target
-        LIMIT 50
+        WHERE n.name IN $seed_nodes
+        WITH n, r, m
+        OPTIONAL MATCH (m)-[r2]-(m2:Entity)
+        WHERE NOT m2.name IN $seed_nodes
+        WITH n.name AS source, type(r) AS rel, m.name AS target,
+             m2.name AS hop2_node, type(r2) AS hop2_rel
+        RETURN DISTINCT source, rel, target, hop2_node, hop2_rel
+        LIMIT 80
         """
         with self.driver.session() as session:
             result = session.run(query, seed_nodes=seed_nodes)
-            triples = [f"({record['source']}, {record['relation']}, {record['target']})" for record in result]
+            triples = set()
+            for record in result:
+                triples.add(f"({record['source']}, {record['rel']}, {record['target']})")
+                if record['hop2_node'] and record['hop2_rel']:
+                    triples.add(f"({record['target']}, {record['hop2_rel']}, {record['hop2_node']})")
         
         if not triples:
             return "Không tìm thấy thông tin đồ thị từ các đỉnh bắt đầu."

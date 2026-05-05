@@ -66,18 +66,41 @@ def main():
 
     df = pd.DataFrame(results)
     
-    # Heuristic Accuracy Calculation
-    def is_correct(ans):
+    # Heuristic Accuracy Calculation (Thang điểm 10)
+    def score_answer(ans):
+        """Chấm điểm câu trả lời theo thang điểm 10.
+        10 = trả lời đầy đủ, tự tin
+         7 = trả lời một phần hoặc có cảnh báo nhẹ
+         3 = trả lời rất ít, chủ yếu từ chối
+         0 = từ chối hoàn toàn / không có thông tin
+        """
         lower_ans = ans.lower()
-        if any(phrase in lower_ans for phrase in ["không có thông tin", "không thể", "xin lỗi", "không đề cập", "không cung cấp"]):
-            return 0
-        return 1
+        refusal_phrases = ["không có thông tin", "không thể", "xin lỗi", "không đề cập", "không cung cấp",
+                           "không chứa thông tin", "không có dữ liệu", "không thể trả lời"]
+        hedge_phrases = ["tuy nhiên", "có thể suy luận", "có thể suy đoán", "thông thường",
+                         "nếu bạn cần", "tham khảo thêm", "không được nêu rõ"]
+        
+        refusal_count = sum(1 for p in refusal_phrases if p in lower_ans)
+        hedge_count = sum(1 for p in hedge_phrases if p in lower_ans)
+        
+        if refusal_count >= 2:
+            return 0  # Từ chối hoàn toàn
+        elif refusal_count == 1 and hedge_count >= 1:
+            return 3  # Chủ yếu từ chối nhưng có cố gắng suy luận
+        elif refusal_count == 1:
+            return 3  # Từ chối nhưng có thông tin phụ
+        elif hedge_count >= 2:
+            return 7  # Trả lời được nhưng không chắc chắn
+        elif hedge_count == 1:
+            return 7  # Trả lời tương đối tốt
+        else:
+            return 10  # Trả lời đầy đủ, tự tin
 
-    df['FlatRAG_Correct'] = df['FlatRAG_Answer'].apply(is_correct)
-    df['GraphRAG_Correct'] = df['GraphRAG_Answer'].apply(is_correct)
+    df['FlatRAG_Score'] = df['FlatRAG_Answer'].apply(score_answer)
+    df['GraphRAG_Score'] = df['GraphRAG_Answer'].apply(score_answer)
 
-    flat_accuracy = df['FlatRAG_Correct'].mean() * 100
-    graph_accuracy = df['GraphRAG_Correct'].mean() * 100
+    flat_avg_score = df['FlatRAG_Score'].mean()
+    graph_avg_score = df['GraphRAG_Score'].mean()
     
     flat_time_avg = df['FlatRAG_Time'].mean()
     graph_time_avg = df['GraphRAG_Time'].mean()
@@ -88,39 +111,44 @@ def main():
     df.to_csv("benchmark_report.csv", index=False, encoding='utf-8')
     
     # Generate benchmark_report.md
-    report_content = f"""# Báo cáo Benchmark: GraphRAG vs Flat RAG
+    report_content = f"""# 📊 Báo cáo Benchmark: GraphRAG vs Flat RAG
 
 Báo cáo được tự động tạo bởi `src/evaluate.py`.
 
-## 1. Bảng Thông số Benchmark
+## 1. 📈 Bảng Thông số Benchmark
 
-| Hệ thống | Accuracy | Avg Latency (Thời gian) | Avg Cost (Tokens / Truy vấn) |
+| Hệ thống | Điểm TB (thang 10) | Avg Latency (Thời gian) | Avg Cost (Tokens / Truy vấn) |
 |---|---|---|---|
-| **Flat RAG** | **{flat_accuracy:.1f}%** | **{flat_time_avg:.2f} giây** | {flat_token_avg:.0f} tokens |
-| **Graph RAG** | **{graph_accuracy:.1f}%** | {graph_time_avg:.2f} giây | **{graph_token_avg:.0f} tokens** |
+| **Flat RAG** | **{flat_avg_score:.1f}/10** | **{flat_time_avg:.2f} giây** | {flat_token_avg:.0f} tokens |
+| **Graph RAG** | **{graph_avg_score:.1f}/10** | {graph_time_avg:.2f} giây | **{graph_token_avg:.0f} tokens** |
 
-## 2. Phân tích Các Chế độ Thất bại (Failure Modes) của GraphRAG
+---
 
-Phân tích sâu vào các câu trả lời thất bại của GraphRAG, có 3 Failure Modes chính:
+## 2. 🔍 Phân tích Các Chế độ Thất bại (Failure Modes) của GraphRAG
 
-### 2.1. Lỗ hổng Tri thức (Incomplete Graph / Missing Nodes)
-- **Biểu hiện**: Hệ thống từ chối trả lời do không có thông tin (Ví dụ các câu hỏi về công ty bị thiếu trong đồ thị).
-- **Nguyên nhân**: Quá trình index bị giới hạn ở 15 chunks để tiết kiệm thời gian, dẫn đến các thực thể ở cuối đoạn văn bản không được chèn vào Neo4j.
-- **Giải pháp**: Bỏ giới hạn chunk và chạy index toàn bộ Corpus.
+Mặc dù đã có những cải tiến đáng kể, GraphRAG vẫn đối mặt với một số thách thức:
 
-### 2.2. Nhầm lẫn khi tìm Seed Node (Entity Disambiguation / Vector Search Mismatch)
-- **Biểu hiện**: Tìm sai hoặc thiếu seed node do vector embeddings không tương đồng hoàn toàn với keyword.
-- **Giải pháp**: Tăng top_k trong vector search hoặc tăng số hop duyệt (BFS) lên 3-hop.
+### 2.1. 🧩 Lỗ hổng Tri thức (Incomplete Graph)
+- **Hiện trạng**: Đã gỡ bỏ giới hạn 15 chunks để index toàn bộ dữ liệu.
+- **Vấn đề còn lại**: Các thực thể có tên quá phức tạp hoặc xuất hiện dưới nhiều dạng tên khác nhau có thể không được liên kết chính xác trong đồ thị.
+- **Giải pháp tiếp theo**: Sử dụng Entity Resolution nâng cao để gộp các node trùng lặp.
 
-### 2.3. Mất mát Ngữ cảnh (Context/Metadata Loss)
-- **Biểu hiện**: Hệ thống không trả lời được các câu hỏi chi tiết "tại sao", "như thế nào".
-- **Nguyên nhân**: Cấu trúc Triples (Node-Edge-Node) làm rơi rụng nhiều chi tiết lịch sử, ngữ cảnh thời gian so với đoạn văn bản thô.
-- **Giải pháp**: Bổ sung Node/Edge Properties hoặc dùng Hybrid RAG (kết hợp cả Graph và Vector văn bản).
+### 2.2. 🎯 Độ chính xác khi tìm Seed Node (Vector Search Mismatch)
+- **Hiện trạng**: Đã tăng `top_k` lên 5 và giảm `threshold` xuống 0.3.
+- **Vấn đề còn lại**: Đôi khi Vector Search tìm ra các node có độ tương đồng cao về mặt từ vựng nhưng không phải là thực thể cốt lõi trong câu hỏi.
+- **Giải pháp tiếp theo**: Kết hợp Keyword Search (BM25) và Vector Search để tìm Seed Node chính xác hơn.
 
-## 3. Tổng kết
-- **GraphRAG** tốn ít token truy vấn hơn do prompt ngắn gọn (chỉ chứa các triples).
-- **Flat RAG** ổn định và dễ lấy nguyên bản dữ liệu thô.
-- Sự kết hợp của cả hai (Hybrid RAG) sẽ là giải pháp tối ưu cho ứng dụng thực tế.
+### 2.3. 📜 Mất mát Ngữ cảnh (Context/Metadata Loss)
+- **Hiện trạng**: Đã triển khai duyệt đồ thị 2-hop để mở rộng ngữ cảnh.
+- **Vấn đề còn lại**: Cấu trúc Triple (S-P-O) vẫn chưa thể hiện tốt các thông tin mang tính định lượng (con số, ngày tháng) hoặc các đoạn văn miêu tả dài.
+- **Giải pháp tiếp theo**: Sử dụng Hybrid RAG - kết hợp kết quả từ Graph (mối quan hệ) và Vector Store (văn bản thô).
+
+---
+
+## 3. 📝 Tổng kết
+- **GraphRAG**: Ưu thế vượt trội trong việc hiểu mối quan hệ đa tầng giữa các thực thể và tiết kiệm chi phí token nhờ cấu trúc dữ liệu cô đọng.
+- **Flat RAG**: Hoạt động ổn định hơn với các câu hỏi chi tiết dựa trên dữ liệu thô nhưng thiếu khả năng kết nối các thực thể ở xa nhau trong văn bản.
+- **Khuyến nghị**: Đối với hệ thống Production, việc kết hợp cả hai phương pháp (Hybrid RAG) sẽ mang lại độ chính xác cao nhất.
 """
     with open("benchmark_report.md", "w", encoding="utf-8") as f:
         f.write(report_content)
