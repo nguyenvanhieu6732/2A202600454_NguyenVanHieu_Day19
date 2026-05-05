@@ -7,7 +7,7 @@ __pycache__/
 
 # Ignore data files
 *.db
-*.csv
+
 
 # Ignore credentials
 .env
