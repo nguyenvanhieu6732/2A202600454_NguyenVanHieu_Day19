@@ -1,0 +1,1 @@
+CORPUS_FILE = "data/corpus.txt"

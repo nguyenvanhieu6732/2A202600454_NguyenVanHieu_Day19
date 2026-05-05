@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  neo4j:
+    image: neo4j:latest
+    container_name: lab19-neo4j
+    ports:
+      - "7474:7474" # Giao diện Neo4j Browser
+      - "7687:7687" # Cổng kết nối Bolt cho Python Driver
+    environment:
+      # Thay đổi mật khẩu này nếu cần
+      - NEO4J_AUTH=neo4j/password
+    volumes:
+      - ./neo4j_data/data:/data
+      - ./neo4j_data/logs:/logs

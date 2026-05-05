@@ -1,0 +1,370 @@
+--- Thực thể: OpenAI ---
+OpenAI là một phòng thí nghiệm nghiên cứu trí tuệ nhân tạo (AI) của Mỹ bao gồm tổ chức phi lợi nhuận OpenAI Incorporated (OpenAI Inc.) và công ty con hoạt động vì lợi nhuận OpenAI Limited Partnership (OpenAI LP). OpenAI tiến hành nghiên cứu AI với mục đích đã tuyên bố là thúc đẩy và phát triển một AI thân thiện. Các hệ thống OpenAI chạy trên siêu máy tính mạnh thứ năm trên thế giới. Tổ chức được thành lập tại San Francisco vào năm 2015 bởi Sam Altman, Reid Hoffman, Jessica Livingston, Elon Musk, Ilya Sutskever, Peter Thiel và những người khác. Musk đã từ chức khỏi hội đồng quản trị vào năm 2018 nhưng vẫn là một nhà tài trợ. Microsoft đã cung cấp cho OpenAI LP khoản đầu tư 1 tỷ USD vào năm 2019 và khoản đầu tư thứ hai trong nhiều năm vào tháng 1 năm 2023, được báo cáo là 10 tỷ USD.
+
+
+== Lịch sử ==
+
+
+=== Khởi đầu phi lợi nhuận (2015–2018) ===
+Vào tháng 12 năm 2015, Sam Altman, Greg Brockman, Reid Hoffman, Jessica Livingston, Peter Thiel, Elon Musk, Amazon Web Services (AWS), Infosys và YC Research đã công bố việc thành lập OpenAI và cam kết hơn 1 tỷ USD cho liên doanh. Tổ chức tuyên bố rằng họ sẽ "hợp tác tự do" với các tổ chức và nhà nghiên cứu khác bằng cách công khai các bằng sáng chế và nghiên cứu của mình. OpenAI có trụ sở chính tại Tòa nhà Pioneer ở Quận Mission, San Francisco.
+Theo Wired, Brockman đã gặp Yoshua Bengio, một trong những "cha đẻ" của học sâu và lập danh sách "những nhà nghiên cứu giỏi nhất trong lĩnh vực này". Brockman có thể đã thuê chín người trong số họ làm nhân viên đầu tiên vào tháng 12 năm 2015. Vào năm 2016, OpenAI đã tiến hành trả lương cấp công ty (chứ không phải cấp phi lợi nhuận), nhưng không trả lương cho các nhà nghiên cứu AI theo mức tương đương với lương của Facebook hoặc Google.
+
+
+=== Chuyển đổi sang định hướng lợi nhuận (2019) ===
+Vào năm 2019, OpenAI đã chuyển đổi từ phi lợi nhuận sang vì lợi nhuận có "giới hạn", với lợi nhuận tối đa giới hạn ở mức gấp 100 lần bất kỳ khoản đầu tư nào. Theo OpenAI, mô hình lợi nhuận giới hạn cho phép OpenAI LP thu hút đầu tư hợp pháp từ các quỹ mạo hiểm và ngoài ra cấp cổ phần cho nhân viên trong công ty, mục tiêu là họ có thể nói "Tôi sẽ tham gia OpenAI, nhưng trong về lâu dài, điều đó sẽ không gây bất lợi cho chúng ta với tư cách là một gia đình." Nhiều nhà nghiên cứu hàng đầu làm việc cho Google Brain, DeepMind hoặc Facebook, cũng được công ty cấp cho quyền chọn mua cổ phiếu của công ty, việc mà khi làm cho một tổ chức phi lợi nhuận không thể có được. Trước khi chuyển đổi, việc tiết lộ công khai về thù lao của những nhân viên hàng đầu tại OpenAI là bắt buộc về mặt pháp lý.
+
+
+=== Phát triển ChatGPT, DALL-E, hợp tác với Microsoft (2020–2023) ===
+Vào tháng 1 năm 2023, OpenAI Global, LLC đã đàm phán về khoản tài trợ sẽ định giá công ty ở mức 29 tỷ đô la, gấp đôi giá trị năm 2021. Vào ngày 23 tháng 1 năm 2023, Microsoft đã công bố khoản đầu tư mới trị giá 10 tỷ đô la Mỹ vào OpenAI Global, LLC trong nhiều năm, một phần là để sử dụng dịch vụ điện toán đám mây Azure của Microsoft. Tin đồn về thỏa thuận này cho thấy Microsoft có thể nhận được 75% lợi nhuận của OpenAI cho đến khi đảm bảo được lợi nhuận đầu tư và 49% cổ phần trong công ty. Khoản đầu tư này được cho là một phần trong nỗ lực của Microsoft nhằm tích hợp ChatGPT của OpenAI vào công cụ tìm kiếm Bing. Google đã công bố một ứng dụng AI tương tự (Bard), sau khi ChatGPT được ra mắt, vì lo ngại rằng ChatGPT có thể đe dọa vị trí của Google như một nguồn thông tin đáng tin cậy.
+Vào ngày 7 tháng 2 năm 2023, Microsoft thông báo rằng họ đang xây dựng công nghệ AI dựa trên cùng một nền tảng như ChatGPT vào Microsoft Bing, Edge, Microsoft 365 và các sản phẩm khác.
+
+
+=== Nỗ lực công cộng/phi lợi nhuận, Sora, hợp tác với Apple ===
+Vào ngày 16 tháng 1 năm 2024, để đáp lại sự giám sát chặt chẽ từ các cơ quan quản lý trên toàn thế giới, OpenAI đã công bố thành lập một nhóm Collective Alignment mới với mục tiêu triển khai các ý tưởng từ công chúng để đảm bảo các mô hình của mình sẽ "phù hợp với các giá trị của nhân loại". Động thái này xuất phát từ chương trình công khai được ra mắt vào tháng 5 năm 2023. Công ty giải thích rằng chương trình này sẽ tách biệt với các nỗ lực thương mại của mình. Vào ngày 18 tháng 1 năm 2024, OpenAI đã công bố quan hệ đối tác với Đại học Bang Arizona, theo đó sẽ cung cấp cho công ty quyền truy cập hoàn toàn vào ChatGPT Enterprise. ASU có kế hoạch kết hợp công nghệ này vào nhiều khía cạnh khác nhau trong hoạt động của mình, bao gồm các khóa học, gia sư và nghiên cứu. Đây là quan hệ đối tác đầu tiên của OpenAI với một tổ chức giáo dục.
+Vào ngày 15 tháng 2 năm 2024, OpenAI đã công bố một mô hình chuyển văn bản thành video có tên là Sora, dự kiến sẽ phát hành cho công chúng vào một ngày chưa xác định. Hiện tại, mô hình này có sẵn cho các nhóm đỏ (nhóm người dùng thử nghiệm) để quản lý các tác hại và rủi ro quan trọng.
+Vào ngày 10 tháng 6 năm 2024, tại hội nghị WWDC 2024, OpenAI đã công bố hợp tác với Apple Inc. để đưa các tính năng ChatGPT vào Apple Intelligence và iPhone.
+Vào
+
+--- Thực thể: DeepMind ---
+Google DeepMind là một công ty trí tuệ nhân tạo của Anh được thành lập vào tháng 9 năm 2010 với tên DeepMind Technologies. Công ty được đổi tên khi nó đã được Google mua lại vào năm 2014. Công ty đã tạo ra một mạng lưới thần kinh biết cách học chơi trò chơi video trong một cách thức tương tự như con người, cũng như một mạng lưới thần kinh mà có thể truy cập vào một bộ nhớ ngoài giống như một máy Turing thông thường, dẫn đến một máy tính bắt chước bộ nhớ ngắn hạn của bộ não con người. Công ty đã trở nên nổi tiếng trong năm 2016 sau khi chương trình AlphaGo của mình đã đánh bại một kiện tướng cờ vây chuyên nghiệp của con người lần đầu tiên.
+
+
+== Vụ Google mua lại ==
+Ngày 26 tháng 1 năm 2014, Google đã thông báo đã đồng ý mua lại DeepMind Technologies. Vụ mua lại được cho là đã diễn ra sau khi Facebook chấm dứt đàm phán với DeepMind Technologies năm 2013. Sau vụ thâu tóm, công ty được đổi tên thành Google DeepMind.
+Ước tính số tiền mua lại dao động, khoảng từ 400 triệu đô la Mỹ đến hơn 500 triệu đô la Mỹ.
+Một trong những điều kiện của DeepMind đưa ra cho Google là họ phải thiết lập một ban Đạo đức AI.
+
+
+== Chú thích ==
+
+--- Thực thể: Microsoft ---
+Microsoft là một tập đoàn đa quốc gia của Hoa Kỳ đặt trụ sở chính tại Redmond, Washington; chuyên phát triển, sản xuất, kinh doanh bản quyền phần mềm và hỗ trợ trên diện rộng các sản phẩm và dịch vụ liên quan đến máy tính. Công ty được sáng lập bởi Bill Gates và Paul Allen vào ngày 4 tháng 4 năm 1975. Nếu tính theo doanh thu thì Microsoft là hãng sản xuất phần mềm lớn nhất thế giới. Nó cũng được gọi là "một trong những công ty có giá trị nhất trên thế giới".
+Được thành lập để phát triển phần mềm trình thông dịch BASIC cho máy Altair 8800, Microsoft vươn lên thống trị thị trường hệ điều hành cho máy tính gia đình với MS-DOS giữa những năm 1980. Cổ phiếu của công ty sau khi được phát hành lần đầu ra thị trường đã tăng giá nhanh chóng và tạo ra 4 tỷ phú và 12.000 triệu phú trong công ty. Kể từ thập niên 1990, công ty đã đa dạng hóa sản phẩm hệ điều hành và tiến hành nhiều thương vụ thâu tóm công ty mà điển hình là sáp nhập LinkedIn với giá 26,2 tỉ đô la vào tháng 12 năm 2016, và Skype Technologies với 8,5 tỉ đô la vào tháng 5 năm 2011. Công ty cũng cung cấp nhiều phần mềm máy tính và máy chủ cho người dùng cá nhân và doanh nghiệp, trong đó có công cụ tìm kiếm Internet (với Bing), thị trường dịch vụ số (với MSN), thực tế hỗn hợp (HoloLens), điện toán đám mây (Azure) và môi trường phát triển phần mềm (Visual Studio).
+Năm 2000, Steve Ballmer thay thế Gates ở vai trò CEO, tái định hướng công ty theo chiến lược "thiết bị và dịch vụ". Sự thay đổi bắt đầu bằng việc sáp nhập Danger Inc. vào năm 2008, công ty bước vào thị trường sản xuất máy tính lần đầu năm 2012 với việc tung ra máy tính bảng Microsoft Surface, rồi thành lập Microsoft Mobile sau khi thâu tóm mảng thiết bị và dịch vụ của Nokia. Nhưng từ khi Satya Nadella nhận vai trò CEO vào năm 2014, họ chuyển trọng tâm từ sản xuất phần cứng sang làm dịch vụ điện toán đám mây và việc này đã đưa giá trị công ty đạt mức cao nhất kể từ tháng 12 năm 1999. Vào năm 2015, Microsoft dù tiếp tục dẫn đầu thị phần hệ điều hành PC và bộ phần mềm văn phòng, nhưng họ đánh mất vị trí dẫn đầu hệ điều hành nói chung của Windows vào tay Android.
+Xuyên suốt lịch sử, tập đoàn luôn là mục tiêu của rất nhiều sự chỉ trích, bao gồm chỉ trích về độc quyền kinh doanh. Trong đó có từ phía Ủy ban công lý Hoa Kỳ (Bộ Tư pháp Hoa Kỳ), và Ủy ban châu Âu (European commission), đã làm Microsoft dính vào rất nhiều vụ kiện tụng.
+
+
+== Lịch sử ==
+
+
+=== Thuở đầu ===
+
+Paul Allen và Bill Gates, hai người bạn thân từ thuở nhỏ có cùng niềm đam mê với lập trình máy tính, đã vươn đến thành công bằng cách kết hợp những kỹ năng của nhau. Tháng 1 năm 1975, tờ báo Popular Electronics đăng bài nói về chiếc máy vi tính Altair 8800 của hãng Micro Instrumentation and Telemetry Systems (MITS). Allen để ý rằng họ có thể viết chương thông dịch BASIC cho máy này; sau khi Bill Gates gọi điện cho MITS nói rằng họ có một chương trình thông dịch có thể chạy được, MITS yêu cầu được tận mắt kiểm chứng. Để chuẩn bị cho buổi kiểm chứng, hai người đảm nhiệm hai nhiệm vụ khác nhau, Allen làm chiếc máy mô phỏng Altair 8800 trong khi Gates phát triển chương trình thông dịch. Mặc dù được phát triển trên một máy mô phỏng nhưng chương trình lại hoạt động hoàn hảo trên máy thật trước sự chứng kiến của MITS tại Albuquerque, New Mexico, vào tháng 3 năm 1975. MITS đồng ý phân phối chương trình và họ tiếp thị nó với cái tên Altair BASIC. Sau thành công này, Paul Allen và Bill Gates thành lập Microsoft vào tháng 4 năm 1975, Gates giữ vị trí CEO. Allen chính là người đặt cho công ty cái tên "Microsoft". Vào tháng 1 năm 1977, công ty đạt được thỏa thuận với Tạp chí ASCII tại Nhật Bản, đặt văn phòng quốc tế đầu tiên tại đây với cái tên "Microsoft". Còn trụ sở chính tại Mỹ được dời đến Bellevue, Washington vào tháng 1 năm 1979.
+Sau đó, Microsoft gõ cửa ngành kinh doanh hệ điều hành vào năm 1980 với các phiên bản phân phối hệ điều hành Unix mang tên Xenix. Tuy nhiên, MS-DOS mới chính là nền tảng cho sự thống trị của công ty. Hãng IBM trao hợp đồng cho Microsoft để cung cấp phiên bản của hệ điều hành (HĐH) CP/M, sẽ được sử dụng trong máy tính sắp tung ra của hãng là Máy tính cá nhân IBM (IBM PC). Vì thời gian gấp rút nên Microsoft mua lại HĐH mô phỏng CP/M tên là 86-DOS từ hãng Seattle Computer Products, đặt tên mới là MS-DOS. Sau khi IBM PC được tung ra vào tháng 8 năm 1981, Microsoft giữ lại quyền sở hữu MS-DOS. Nhiều lý do khác nhau khiến MS-DOS thành công, như bộ phần mềm chọn lọc có sẵn của nó, và Microsoft trở thành nhà cung cấp HĐH dẫn đầu. Tiếp đó, họ bước vào những thị trường mới với việc tung ra Chuột Microsoft vào năm 1983, và thành lập một bộ phận xuất bản mang tên Microsoft Press. Nhưng buồn thay, Paul Allen rời Microsoft vào tháng 2 vì bệnh ung thư hạch.
+
+
+=== 1985–1994: Windows và Office ===
+Năm 1984, trong lúc cùng IBM phát triển hệ điều hành mới mang tên OS/2; vào ngày 20 tháng 11 năm 1985, Microsoft cho ra đời Microsoft Windows, hệ điều hành mở rộng của MS-DOS sử dụng giao diện đồ họa. Vào ngày 26 tháng 2 năm 1986, Microsoft dời trụ
+
+--- Thực thể: Google ---
+Google LLC (n.đ. 'Công ty trách nhiệm hữu hạn Google') là một công ty công nghệ đa quốc gia của Mỹ, chuyên về các dịch vụ và sản phẩm liên quan đến Internet, bao gồm các công nghệ quảng cáo trực tuyến, công cụ tìm kiếm, điện toán đám mây, phần mềm và phần cứng. Đây được coi là một trong những công ty công nghệ Big Four, cùng với Amazon, Apple và Facebook.
+Google được thành lập vào năm 1998 bởi Larry Page và Sergey Brin trong khi họ là nghiên cứu sinh đã có bằng tiến sĩ tại Đại học Stanford ở California. Họ cùng nhau sở hữu khoảng 14% cổ phần và kiểm soát 56% quyền biểu quyết của cổ đông thông qua cổ phiếu ưu đãi. Họ đã hợp nhất Google thành một công ty tư nhân vào ngày 4 tháng 9 năm 1998. Một đợt chào bán công khai lần đầu (IPO) diễn ra vào ngày 19 tháng 8 năm 2004 và Google chuyển đến trụ sở chính tại Mountain View, California với tên Googleplex. Vào tháng 8 năm 2015, Google đã công bố kế hoạch tổ chức lại công ty với tư cách là một tập đoàn có tên là Alphabet Inc. Google là công ty con hàng đầu của Alphabet và sẽ tiếp tục là công ty ô dù vì lợi ích Internet của Alphabet. Sundar Pichai được bổ nhiệm làm CEO của Google, thay thế Larry Page trở thành CEO của Alphabet.
+Sự phát triển nhanh chóng của công ty kể từ khi thành lập đã kích hoạt một chuỗi các sản phẩm, mua lại để sáp nhập và hợp tác ngoài công cụ tìm kiếm cốt lõi của Google (Google Tìm kiếm). Nó cung cấp các dịch vụ được thiết kế cho công việc và năng suất (Google Docs, Google Sheets và Google Slides), email (Gmail/Inbox), lập lịch và quản lý thời gian (Lịch Google), lưu trữ đám mây (Google Drive), mạng xã hội (Google+), nhắn tin và trò chuyện video trực tiếp (Google Allo, Duo, Hangouts), dịch ngôn ngữ (Google Dịch), lập bản đồ và điều hướng (Google Maps, Waze, Google Earth, Chế độ xem phố), chia sẻ video (YouTube), ghi chú (Google Keep) và tổ chức và chỉnh sửa ảnh (Google Ảnh). Công ty dẫn đầu sự phát triển của hệ điều hành di động Android, trình duyệt web Google Chrome và Chrome OS, một hệ điều hành nhẹ dựa trên trình duyệt Chrome. Google đã ngày càng chuyển sang phần cứng; từ năm 2010 đến 2015, nó hợp tác với các nhà sản xuất điện tử lớn trong việc sản xuất các thiết bị Nexus của mình và đã phát hành nhiều sản phẩm phần cứng vào tháng 10 năm 2016, bao gồm điện thoại thông minh Google Pixel, loa thông minh Google Home, bộ định tuyến không dây Google Wifi và Daydream-tai nghe thực tế ảo. Google cũng đã thử nghiệm trở thành nhà cung cấp dịch vụ Internet (Google Fiber, Project Fi và Google Station).
+Google và YouTube là hai trang web được truy cập nhiều nhất trên thế giới, tiếp theo là Facebook và Google X cũng là công cụ tìm kiếm, ứng dụng bản đồ và định vị, nhà cung cấp email, bộ ứng dụng văn phòng, nền tảng chia sẻ video, nhà cung cấp bộ nhớ đám mây và ảnh, hệ điều hành di động, trình duyệt web, ML framework và nhà cung cấp trợ lý ảo AI lớn nhất thế giới khi đo lường theo thị phần. Trên danh sách các thương hiệu có giá trị nhất, Google được Forbes xếp hạng thứ hai và Interbrand xếp hạng thứ tư.
+
+
+== Lịch sử ==
+
+
+=== Những năm đầu ===
+
+Google bắt đầu vào tháng 1 năm 1996 như một dự án nghiên cứu của Larry Page và Sergey Brin khi họ đều là những nghiên cứu sinh tiến sĩ tại Đại học Stanford ở California. Dự án ban đầu có sự tham gia của một "người đồng sáng lập thứ ba" không chính thức, Scott Hassan, là lập trình viên chính ban đầu đã viết phần lớn mã cho công cụ tìm kiếm Google Search ban đầu, nhưng ông đã rời đi trước khi Google được thành lập chính thức như một công ty; Hassan tiếp tục theo đuổi sự nghiệp robot và thành lập công ty Willow Garage vào năm 2006.
+Trong khi các công cụ tìm kiếm thông thường xếp hạng kết quả bằng cách đếm số lần các cụm từ tìm kiếm xuất hiện trên trang, họ đã đưa ra giả thuyết về một hệ thống tốt hơn có thể phân tích mối quan hệ giữa các trang web. Họ gọi thuật toán này là PageRank; nó xác định mức độ liên quan của một trang web bằng số lượng trang và tầm quan trọng của các trang đó liên kết ngược với trang web ban đầu. Page đã nói về ý tưởng của mình với Hassan, người bắt đầu viết mã để thực hiện ý tưởng của Page.
+Ban đầu Larry Page và Sergey Brin đặt biệt hiệu cho công cụ tìm kiếm mới là "BackRub", bởi vì hệ thống kiểm tra các liên kết ngược để ước tính tầm quan trọng của một trang web. Scott Hassan và Alan Steremberg được Page và Brin trích dẫn là những người đóng vai trò quan trọng trong việc phát triển Google. Rajeev Motwani và Terry Winograd sau đó đã đồng tác giả với Page và Brin trong bài báo đầu tiên về dự án, mô tả PageRank và nguyên mẫu ban đầu của công cụ tìm kiếm Google, được xuất bản vào năm 1998. Héctor García-Molina và Jeff Ullman cũng được trích dẫn là những người đóng góp cho dự án. PageRank chịu ảnh hưởng của một thuật toán xếp hạng trang và xếp hạng trang tương tự trước đây được sử dụng cho RankDex, được phát triển bởi Robin Li vào năm 1996, với bằng sáng chế PageRank của Larry Page bao gồm trích dẫn bằng sáng chế RankDex trước đó của Li; Li sau đó tiếp tục tạo ra công cụ tìm kiếm Baidu của Trung Quố
+
+--- Thực thể: Apple Inc. ---
+Apple Inc. là một tập đoàn công nghệ đa quốc gia của Hoa Kỳ chuyên về thiết kế và phát triển các thiết bị điện tử tiêu dùng, phần mềm máy tính cùng dịch vụ trực tuyến có trụ sở chính đặt tại Cupertino, California. Đây là một trong năm công ty lớn của ngành công nghệ thông tin Hoa Kỳ cùng với Amazon, Google, Microsoft và Meta. Các dòng sản phẩm phần cứng của hãng bao gồm điện thoại thông minh iPhone, máy tính bảng iPad, máy tính xách tay MacBook, máy tính cá nhân Mac, máy nghe nhạc di động iPod, đồng hồ thông minh Apple Watch, máy phát đa phương tiện kỹ thuật số Apple TV, tai nghe không dây AirPods, tai nghe AirPods Max và loa thông minh HomePod. Phần mềm của Apple bao gồm hệ điều hành macOS, iOS, iPadOS, watchOS và tvOS, trình phát đa phương tiện iTunes, trình duyệt web Safari, mã nhận dạng nhạc Shazam, gói làm việc năng suất và sáng tạo iLife và iWork, cũng như các ứng dụng chuyên nghiệp khác như Final Cut Pro, Logic Pro và Xcode. Các dịch vụ trực tuyến bao gồm iTunes Store, iOS App Store, Mac App Store, Apple Arcade, Apple Music, Apple TV +, iMessage và iCloud. Các dịch vụ khác bao gồm Apple Store, Genius Bar, AppleCare, Apple Pay, Apple Pay Cash và Apple Card.
+Apple được Steve Jobs, Steve Wozniak và Ronald Wayne thành lập vào tháng 4 năm 1976 để phát triển và bán máy tính cá nhân Apple I của Wozniak, mặc dù Wayne đã bán lại cổ phần của mình trong vòng 12 ngày. Nó được hợp nhất thành Apple Computer, Inc., vào tháng 1 năm 1977, và doanh số bán máy tính của nó, bao gồm cả Apple I và Apple II, đã tăng lên nhanh chóng.
+Jobs và Wozniak đã thuê một nhân viên thiết kế máy tính và có một dây chuyền sản xuất bắt đầu từ ga ra của Jobs. Apple ra mắt công chúng vào năm 1980 với thành công tài chính tức thì. Trong vài năm tiếp theo, Apple đã xuất xưởng những chiếc máy tính mới có giao diện người dùng đồ họa sáng tạo, chẳng hạn như Macintosh ban đầu vào năm 1984 và các quảng cáo tiếp thị của Apple cho sản phẩm của mình đã nhận được sự hoan nghênh rộng rãi. Tuy nhiên, giá sản phẩm cao và thư viện ứng dụng hạn chế đã gây ra nhiều vấn đề, cũng như tranh giành quyền lực giữa các giám đốc điều hành. Năm 1985, Wozniak rời Apple một cách thân thiện và vẫn là một nhân viên danh dự, trong khi Jobs từ chức để thành lập NeXT, dẫn theo một vài đồng nghiệp đi cùng.
+Khi thị trường máy tính cá nhân mở rộng và phát triển trong suốt những năm 1990, Apple đã mất thị phần đáng kể vào tay sản phẩm độc quyền có giá thấp hơn của Microsoft Windows trên máy tính nhái Intel. Hội đồng quản trị đã tuyển dụng giám đốc điều hành Gil Amelio với nỗ lực kéo dài 500 ngày để phục hồi công ty đang gặp khó khăn về tài chính định hình lại công ty với việc sa thải, tái cấu trúc điều hành và tập trung vào sản phẩm. Ông đã dẫn dắt Apple mua NeXT vào năm 1997, giải quyết một chiến lược hệ điều hành thất bại và đưa Jobs trở lại.
+Jobs giành lại vị thế lãnh đạo, trở thành CEO vào năm 2000. Apple đã nhanh chóng trở lại có lãi nhờ chiến dịch Hồi sinh Think different, xây dựng lại vị thế của Apple bằng cách ra mắt IMac vào năm 1998, mở chuỗi cửa hàng bán lẻ Apple Store vào năm 2001 và mua lại nhiều công ty để mở rộng danh mục phần mềm. Công ty đã được đổi tên thành Apple Inc. vào năm 2007, phản ánh sự tập trung vào thiết bị điện tử tiêu dùng và tung ra iPhone để đạt được thành công về tài chính và sự hoan nghênh quan trọng. Vào tháng 8 năm 2011, Jobs từ chức Giám đốc điều hành do biến chứng sức khỏe và Tim Cook trở thành Giám đốc điều hành mới. Hai tháng sau, Jobs qua đời, đánh dấu sự kết thúc một kỷ nguyên của công ty. Vào tháng 6 năm 2019, Jony Ive, CDO của Apple, rời công ty để thành lập công ty riêng của mình, nhưng tuyên bố sẽ làm việc với Apple với tư cách là khách hàng chính.
+Tổng doanh thu hàng năm của Apple trên toàn thế giới đạt 274,5 USD tỷ cho năm tài chính 2020. Apple là công ty công nghệ lớn nhất thế giới theo doanh thu và là một trong những công ty giá trị nhất thế giới. Đây cũng là nhà sản xuất điện thoại di động lớn thứ ba thế giới sau Samsung và Huawei. Vào tháng 8 năm 2018, Apple đã trở thành công ty Hoa Kỳ giao dịch công khai đầu tiên được định giá trên 1 nghìn tỷ đô la  và chỉ hai năm sau, vào tháng 8 năm 2020, trở thành công ty đầu tiên trị giá 2 nghìn tỷ đô la Mỹ. Apple sử dụng 147.000 nhân viên toàn thời gian và duy trì 510 cửa hàng bán lẻ tại 25 quốc gia Tính đến  năm 2020. Nó vận hành ITunes Stores, là nhà bán lẻ âm nhạc lớn nhất thế giới. Tính đến  tháng 1 năm 2020, hơn 1,5 tỷ sản phẩm của Apple đang được sử dụng tích cực trên toàn thế giới. Công ty cũng có mức độ trung thành với thương hiệu cao và được xếp hạng là thương hiệu có giá trị nhất thế giới. Tuy nhiên, Apple nhận được nhiều lời chỉ trích liên quan đến hoạt động lao động của các nhà thầu, các hoạt động môi trường và các hoạt động kinh doanh phi đạo đức, bao gồm cả hành vi chống cạnh tranh, cũng như nguồn gốc của nguyên liệu gốc.
+
+
+== Lịch sử ==
+
+
+=== 1976–1984: Thành lập công ty ===
+
+Apple Computer Company được thành lập vào ngày 1 tháng 4 năm 1976, bởi Steve Jobs, Steve Wozniak
+
+--- Thực thể: Meta Platforms ---
+Meta Platforms, Inc. (tiếng Việt: Tập đoàn Nền tảng Meta), tên thương mại Meta, tên cũ Facebook, Inc. và TheFacebook, Inc., là một công ty truyền thông xã hội và công nghệ Mỹ có trụ sở tại Menlo Park, California. Được thành lập bởi Mark Zuckerberg, cùng với các sinh viên và bạn cùng phòng của Đại học Harvard, Eduardo Saverin, Andrew McCollum, Dustin Moskovitz và Chris Hughes, ban đầu là TheFacebook.com trên Facebook, trang web mạng xã hội toàn cầu phổ biến. Đây được coi là một trong những công ty công nghệ Big Five cùng với Microsoft, Amazon, Apple và Google. Meta là một trong những công ty có giá trị nhất thế giới.
+Meta cung cấp các sản phẩm và dịch vụ khác. Công ty đã mua lại Instagram, WhatsApp và Oculus và phát triển độc lập các ứng dụng Facebook Messenger, Threads, Facebook Watch và Facebook Portal. Công ty còn có 9,99% cổ phần trên Jio Platforms.
+Vào tháng 10 năm 2021, thông tin báo chí công bố rằng công ty mẹ của Facebook sẽ đổi tên để thể hiện "sự tập trung vào việc xây dựng" siêu vũ trụ, và được điều chỉnh lại là Meta cuối tháng trên vào 28 tháng 10. Cái tên "Meta" đến từ tiếng Hy Lạp và nghĩa là "vượt ra ngoài", thể hiện những bước chuyển tương lai.
+
+
+== Lịch sử ==
+
+Facebook đã nộp đơn chào bán công khai lần đầu (IPO) vào ngày 1 tháng 2 năm 2012. Bản cáo bạch sơ bộ tuyên bố rằng công ty đang tìm cách huy động 5 tỷ đô la. Tài liệu thông báo rằng công ty có 845 triệu người dùng hoạt động hàng tháng và trang web của có 2,7 tỷ lượt thích và bình luận hàng ngày. Sau khi IPO, Zuckerberg sẽ giữ lại 22% cổ phần sở hữu trong Facebook và sẽ sở hữu 57% cổ phần có quyền biểu quyết.
+Underwriters định giá cổ phiếu ở mức 38 đô la, định giá công ty ở mức 104 tỷ đô la, mức định giá lớn nhất cho đến nay đối với một công ty đại chúng mới thành lập. Vào ngày 16 tháng 5, một ngày trước khi IPO, Facebook tuyên bố sẽ bán thêm 25% cổ phần so với dự kiến ban đầu do nhu cầu cao. IPO này đã huy động được 16 tỷ đô la, trở thành công ty lớn thứ ba trong lịch sử Hoa Kỳ (vượt AT&T Wireless và chỉ sau General Motors và Visa). Giá cổ phiếu khiến công ty có vốn hóa thị trường cao hơn hầu hết công ty trừ một số tập đoàn Mỹ - vượt qua các đối thủ nặng ký như Amazon, McDonald, Disney, và Kraft Foods - và khiến số cổ phiếu của Zuckerberg trị giá 19 tỷ USD. Thời báo New York tuyên bố rằng việc cung cấp đã vượt qua các câu hỏi về những khó khăn của Facebook trong việc thu hút các nhà quảng cáo để biến công ty thành một công ty có "cổ phiếu phải sở hữu". Jimmy Lee của JPMorgan Chase đã mô tả nó là "blue-chip tuyệt vời tiếp theo".  Các biên tập viên tại TechCrunch, mặt khác, bày tỏ sự hoài nghi, nói rằng "Đó là một kỳ vọng quá lớn và [Facebook] có thể sẽ cần thêm các dòng doanh thu mới táo bạo để biện minh cho việc định giá khổng lồ như voi ma mút".
+Giao dịch cổ phiếu, bắt đầu vào ngày 18 tháng 5, đã bị trì hoãn ngày hôm đó do sự cố kỹ thuật với sàn giao dịch NASDAQ. Các cổ phiếu đấu tranh để ở trên mức giá IPO trong phần lớn thời gian trong ngày, buộc các nhà bảo lãnh phải mua lại cổ phiếu để hỗ trợ giá. Khi kết thúc, cổ phiếu được định giá ở mức 38,23 đô la, chỉ cao hơn 0,23 đô la so với giá IPO và giảm 3,82 đô la so với giá trị khi mở bán. Việc mở cửa giaodịch được báo chí tài chính mô tả rộng rãi là một sự thất vọng. Tuy nhiên, cổ phiếu đã lập kỷ lục mới về khối lượng giao dịch của một IPO. Vào ngày 25 tháng 5 năm 2012, cổ phiếu đã kết thúc tuần giao dịch đầu tiên ở mức $ 31,91, giảm 16,5%.
+Vào ngày 22 tháng 5 năm 2012, các nhà quản lý từ Cơ quan quản lý ngành tài chính của Phố Wall tuyên bố rằng họ đã bắt đầu điều tra xem các ngân hàng bảo lãnh Facebook có chia sẻ thông tin không đúng với khách hàng chọn lọc hay không, thay vì công chúng. Thư ký tiểu bang Massachusetts William Galvin đã triệu tập Morgan Stanley về vấn đề tương tự. Các cáo buộc đã gây ra "cơn thịnh nộ" giữa một số nhà đầu tư và dẫn đến việc nộp đơn kiện ngay lập tức, một trong số đó là một vụ kiện tập thể đòi bồi thường hơn 2,5 tỷ đô la do IPO. Bloomberg ước tính rằng các nhà đầu tư bán lẻ có thể đã mất khoảng 630 triệu đô la vào cổ phiếu Facebook kể từ khi ra mắt.
+Standard & Poor đã thêm Facebook, Inc. vào chỉ số S & P 500 vào ngày 21 tháng 12 năm 2013.
+Vào ngày 2 tháng 5 năm 2014, Zuckerberg tuyên bố rằng công ty sẽ thay đổi phương châm nội bộ từ "Di chuyển nhanh và phá vỡ mọi thứ" sang "Di chuyển nhanh với cơ sở hạ tầng ổn định". Khẩu hiệu trước đó đã được mô tả là "chỉ thị chính của Zuckerberg cho các nhà phát triển và nhóm của anh ấy" trong một cuộc phỏng vấn năm 2009 trên Business Insider, trong đó anh cũng nói "Trừ khi bạn phá vỡ mọi thứ, bạn sẽ không di chuyển đủ nhanh." 
+Trong tháng 5 năm 2019, Facebook thành lập Libra Networks, báo cáo để phát triển riêng của họ stablecoin cryptocurrency. Trong những phát triển gần đây, đã có báo cáo rằng Thiên Bình đang được hỗ trợ bởi các công ty tài chính như Visa, Mastercard, PayPal và Uber. Liên minh các công ty dự kiến sẽ tập hợp 10 triệu đô la mỗi công ty để tài trợ cho việc ra mắt đồng tiền điện tử có tên Libra.
+Ngày
+
+--- Thực thể: Amazon.com ---
+Amazon.com, Inc.  () là một công ty công nghệ đa quốc gia của Mỹ có trụ sở tại Seattle, Washington tập trung vào điện toán đám mây, truyền phát kỹ thuật số, trí tuệ nhân tạo và thương mại điện tử. Công ty này được coi là một trong những công ty công nghệ Big Four cùng với Google, Apple và Facebook.
+Amazon được biết đến với việc làm thay đổi tư duy của các ngành công nghiệp đã được thiết lập thông qua đổi mới công nghệ và phát triển quy mô lớn. Công ty này là thị trường thương mại điện tử lớn nhất thế giới, nhà cung cấp trợ lý AI và nền tảng điện toán đám mây  được đo bằng doanh thu và vốn hóa thị trường. Amazon là công ty Internet lớn nhất tính theo doanh thu trên thế giới. Đây là công ty tư nhân lớn thứ hai ở Hoa Kỳ và là một trong những công ty có giá trị nhất thế giới. Amazon là công ty công nghệ lớn thứ hai tính theo doanh thu.
+Amazon được Jeff Bezos thành lập vào ngày 5 tháng 7 năm 1994, tại Bellevue, Washington. Công ty ban đầu kinh doanh như một nhà phân phối trực tuyến sách nhưng sau đó mở rộng thêm để bán đồ điện tử, phần mềm, trò chơi video, may mặc, đồ nội thất, thực phẩm, đồ chơi và trang sức. Năm 2015, Amazon đã vượt qua Walmart trở thành nhà bán lẻ có giá trị nhất tại Hoa Kỳ tính theo giá trị vốn hóa thị trường. Vào năm 2017, Amazon đã mua lại Whole Foods Market với giá 13,4 tỷ đô la, điều này đã làm tăng đáng kể sự hiện diện của Amazon với tư cách là một nhà bán lẻ truyền thống. Năm 2018, Bezos tuyên bố rằng dịch vụ giao hàng trong hai ngày của họ, Amazon Prime, đã có trên 100 triệu người đăng ký trên toàn thế giới.
+Amazon phân phối tải xuống và phát trực tuyến video, âm nhạc, audiobook thông qua các công ty con Amazon Prime Video, Amazon Music và Audible. Amazon cũng có một chi nhánh xuất bản, Amazon Publishing, một hãng phim và truyền hình, Amazon Studios và một công ty con về điện toán đám mây, Amazon Web Services. Công ty cũng sản xuất hàng điện tử tiêu dùng bao gồm thiết bị đọc ebook Kindle, máy tính bảng Fire, Fire TV, và các thiết bị Echo. Ngoài ra, các công ty con của Amazon cũng bao gồm Ring, Twitch.tv, Whole Foods Market và IMDb. Amazon cũng đã dính vào nhiều scandal, nhiều nhất là bị chỉ trích vì vi phạm giám sát công nghệ, văn hóa làm việc siêu cạnh tranh và đòi hỏi cao, trốn thuế, và thực hành chống cạnh tranh.
+
+
+== Lịch sử ==
+
+Năm 1994, Jeff Bezos thành lập Amazon. Ông chọn trụ sở chính tại Seattle vì kỹ thuật máy tính của Microsoft cũng nằm ở đây. Vào tháng 5 năm 1997, Amazon đã trở thành công ty đại chúng. Công ty bắt đầu bán nhạc và video vào năm 1998, lúc đó nó bắt đầu hoạt động trên phạm vi quốc tế bằng cách mua lại những công ty bán sách trực tuyến ở Vương quốc Anh và Đức. Năm sau, công ty cũng bắt đầu bán các trò chơi video, đồ điện tử tiêu dùng, đồ gia dụng, phần mềm, trò chơi và đồ chơi.
+Năm 2002, tập đoàn này thành lập Amazon Web Services (AWS), nơi cung cấp dữ liệu về mức độ phổ biến của trang web, mô hình lưu lượng truy cập Internet và các số liệu thống kê khác cho các nhà tiếp thị và nhà phát triển. Vào năm 2006, tổ chức này đã phát triển danh mục AWS của mình khi Elastic Compute Cloud (EC2), cho thuê sức mạnh xử lý máy tính cũng như Dịch vụ lưu trữ đơn giản (S3), cho thuê lưu trữ dữ liệu qua Internet, được cung cấp. Cùng năm đó, công ty thành lập Fulfillment by Amazon, nơi quản lý tài sản của các cá nhân và công ty nhỏ, và bán đồ đạc của họ thông qua trang web của công ty. Năm 2012, Amazon đã mua Kiva Systems để tự động hóa hoạt động kinh doanh quản lý hàng tồn kho, mua chuỗi siêu thị Whole Food Market 5 năm sau vào năm 2017.
+
+
+== Ban giám đốc ==
+Tính từ tháng 11 năm 2019, ban giám đốc của Amazon bao gồm:
+
+Jeff Bezos: Chủ tịch, Giám đốc điều hành
+Rosalind Brewer: Chủ tịch Tập đoàn và COO, Starbucks
+Jamie Gorelick: cộng sự, Wilmer Cutler Pickering Hale và Dorr
+Daniel P. Huttenlocher: Trưởng khoa Điện toán Schwarzman tại Học viện Công nghệ Massachusetts
+Judy McGrath: cựu CEO, MTV Networks
+Indra Nooyi: cựu CEO, PepsiCo
+Jon Rubinstein: cựu Chủ tịch và Giám đốc điều hành, Palm, Inc.
+Thomas O. Ryder: cựu Chủ tịch và Giám đốc điều hành, Trusted Media Brands
+Patty Stonesifer: Chủ tịch và Giám đốc điều hành, Martha's Table
+Wendell P. Wekks: Chủ tịch, Giám đốc điều hành, Corning Inc.
+
+
+== Tham khảo ==
+
+
+== Liên kết ngoài ==
+
+Website chính thức 
+Dữ liệu doanh nghiệp dành cho Amazon.com, Inc.:
+
+--- Thực thể: Nvidia ---
+NVIDIA (NASDAQ: NVDA, phát âm / ɛnvɪ.di.ə /), một tập đoàn đa quốc gia, chuyên về phát triển bộ xử lý đồ họa (GPU) và công nghệ chipset cho các máy trạm, máy tính cá nhân, và các thiết bị di động. Công ty có trụ sở tại Santa Clara, California, trở thành một nhà cung cấp chính của các mạch tích hợp (ICS) như là đơn vị xử lý đồ họa (GPU) và chipset đồ họa được sử dụng trong thẻ, và giao tiếp trò chơi video và bo mạch chủ của máy tính cá nhân.
+
+
+== Lịch sử ==
+Có ba người đồng sáng lập công ty này:
+
+Hoàng Nhân Huân - Jensen Huang, CEO, một người Mỹ gốc Đài Loan, trước đó là Giám đốc của CoreWare ở LSI Logic và một bộ vi xử lý thiết kế tại AMD.
+Chris Malachowsky, một kỹ sư điện tử làm việc tại Sun Microsystems.
+Curtis Priem, cựu kỹ sư cao cấp và nhà thiết kế chip đồ họa của Sun Microsystems.
+
+
+== Các dòng sản phẩm ==
+Danh mục sản phẩm của nVIDIA bao gồm vi xử lý đồ họa, vi xử lý liên lạc không dây, chipset máy tính để bàn, và phần mềm nghe nhìn kỹ thuật số. nVIDIA được cộng đồng người dùng máy tính biết đến chủ yếu nhờ dòng sản phẩm GeForce, bao gồm một dòng chip đồ họa riêng biệt trong các card đồ họa ngoài và công nghệ đồ họa tích hợp được sử dụng trong bo mạch chủ nForce, dòng máy chơi game Xbox đầu tiên của Microsoft, và PlayStation 3 của Sony.
+Sau đây là một số dòng sản phẩm tiêu biểu nhất của hãng:
+
+GeForce - Bộ xử lý đồ họa dành cho game thủ, nVIDIA được biết đến nhiều nhờ dòng sản phẩm này
+Quadro - Bộ xử lý đồ họa dành cho máy trạm CAD và sáng tạo nội dung kỹ thuật số
+Tegra - Chip hệ thống cho các thiết bị di động
+Tesla - GPU dành riêng cho các ứng dụng đồ họa cao cấp trong các lĩnh vực chuyên nghiệp và khoa học
+nForce - Chipset bo mạch chủ cho bộ xử lý AMD Athlon và Duron (Đã ngừng sản xuất)
+
+
+== Tham khảo ==
+
+
+== Liên kết ngoài ==
+
+Trang chủ
+Trang tải drivers
+Trang cộng đồng Game thủ GeForce.com
+Nvidia Việt Nam Lưu trữ ngày 10 tháng 9 năm 2015 tại Wayback Machine
+Chính phủ Việt Nam và NVIDIA hợp tác thành lập Trung tâm Nghiên cứu và Phát triển, Trung tâm Dữ liệu AI
+
+--- Thực thể: IBM ---
+IBM, viết tắt của International Business Machines, là một tập đoàn về công nghệ máy tính đa quốc gia có trụ sở tại Armonk, New York, Mỹ. IBM được thành lập năm 1911 tại Thành phố New York, lúc đầu có tên là Computing Tabulating Recording (CTR) và đổi thành International Business Machines vào năm 1924.
+IBM là nhà thầu chuyên sản xuất và kinh doanh phần cứng, phần mềm của máy tính, cơ sở hạ tầng, dịch vụ máy chủ và tư vấn trong nhiều lĩnh vực từ máy tính lớn đến công nghệ nano.
+Với hơn 350.000 nhân viên, IBM là công ty tin học lớn nhất thế giới. IBM có đội ngũ kỹ sư và nhân viên tư vấn tại 170 quốc gia. IBM còn có 8 phòng thí nghiệm trên thế giới. Nhân viên của IBM đã giành được 5 giải Nobel, 5 giải thưởng Turing - Giải thưởng Nobel của giới Công nghệ thông tin, 5 huy chương công nghệ quốc gia.
+
+
+== Lịch sử ==
+Khởi đầu: công ty IBM là một công ty sản xuất máy lập bảng gần Herman Hollerith, ở Quận Broome, New York. Ngày 16 tháng 6 năm 1911, IBM hợp nhất thành Computing Tabulating Recording Corporation (CTR) và được đăng ký vào sở giao dịch chứng khoán New York vào năm 1916. IBM sử dụng tên hiện thời vào năm 1924 khi trở thành một trong 500 công ty trong bảng xếp hạng Fortune 500. Trong thế chiến 2, công ty này cũng đã sản xuất khoảng 346.500 khẩu M1 Carbine trước khi hoàn toàn hoạt động trong lĩnh vực công nghệ thông tin.
+Tháng 5 năm 2007, IBM đã công khai kế hoạch Big Green, một phương án dự phòng cho kế hoạch 1 tỉ mỗi năm cho mỗi doanh nghiệp để tăng hiệu suất năng lượng. Người ta hy vọng những sản phẩm mới của IBM và những công tác dịch vụ mới sẽ giảm bớt những tiêu thụ năng lượng trung tâm dữ liệu cùng cơ sở hạ tầng công nghệ và sự biến đổi công nghệ hệ thống các máy khách vào trung tâm dữ liệu "xanh", với năng lượng tiết kiệm xấp xỉ 42% so với một trung tâm dữ liệu trung bình. Kế họạch Big Green phác ra 5 bước cho những máy khách để cải thiện công suất năng lượng. Sáng kiến bao gồm một "green team" toàn cầu cho hơn 850 kiến trúc sư công suất năng lượng từ IBM. IBM đang xây dựng một trung tâm dữ liệu xanh trị giá 86 triệu đô la như một phần của dự án tại Boulder và sẽ củng cố gần 4000 máy chủ từ 6 vị trí toàn cầu lên 30 máy mainframe đang chạy hệ điều hành Linux.
+
+
+== Thương hiệu và danh tiếng ==
+
+IBM có biệt danh là "Big Blue" một phần xuất phát từ logo và màu xanh lam đặc trưng của công ty. Biệt danh này cũng liên quan đến quy định trang phục trước đây của IBM, vốn yêu cầu nhân viên nam mặc áo sơ mi trắng với vest xanh. Logo của IBM đã trải qua nhiều thay đổi theo thời gian, từ những thiết kế đơn giản ban đầu đến logo "8 vạch" hiện đại do nhà thiết kế đồ họa Paul Rand tạo ra vào năm 1972. Logo này thay thế cho logo 13 vạch được sử dụng từ năm 1959 đến năm 1972 bởi vì các máy photocopy đen trắng thời bấy giờ không thể sao chép tốt các đường kẻ mảnh. Ngoài logo, IBM đã sử dụng phông chữ Helvetica làm kiểu chữ chính thức của công ty trong 50 năm. Tuy nhiên, vào năm 2017, IBM đã quyết định thay thế hoàn toàn Helvetica bằng IBM Plex, một phông chữ được thiết kế độc quyền dành riêng cho công ty.
+Sau hơn một thế kỷ hoạt động và thực hiện nhiều chiến dịch marketing, IBM đã trở thành một thương hiệu rất có giá trị. Kể từ năm 1996, IBM đã trở thành nhà tài trợ công nghệ duy nhất cho Masters Tournament, một trong bốn giải golf chuyên nghiệp danh giá nhất thế giới. Kết quả là, Giám đốc điều hành IBM Ginni Rometty gia nhập ban lãnh đạo Câu lạc bộ Golf Quốc gia Augusta. IBM cũng là nhà tài trợ chính cho giải quần vợt chuyên nghiệp. Họ tài trợ cho nhiều giải đấu lớn, bao gồm giải Mỹ Mở rộng, giải Vô địch Wimbledon, giải Úc Mở rộng và giải Pháp mở rộng. Công ty này cũng là nhà tài trợ cho Thế vận hội từ năm 1960 đến năm 2000, và cho Giải bóng bầu dục Quốc gia Mỹ (NFL) từ năm 2003 đến năm 2012.
+IBM cam kết bảo vệ môi trường bằng cách giảm thiểu lượng khí thải nhà kính. Trong năm 2020, IBM đã giảm lượng khí thải CO2e xuống còn 621 kiloton, tương đương giảm 34,3% so với năm 2019. IBM đặt mục tiêu đạt mức phát thải ròng khí nhà kính bằng 0 vào năm 2030.
+
+
+== Tham khảo ==
+
+
+== Liên kết ngoài ==
+
+Trang chủ
+
+--- Thực thể: Intel ---
+Tập đoàn Intel (Integrated Electronics) được thành lập vào ngày 18 tháng 7 năm 1968 tại Santa Clara, California, Hoa Kỳ, là một trong những nhà sản xuất bán dẫn lớn nhất thế giới về doanh thu, và là một trong những nhà phát triển của chuỗi bộ lệnh x86 được tìm thấy ở hầu hết máy tính cá nhân (PC). Intel cung cấp vi xử lý cho các nhà sản xuất hệ thống máy tính như Acer, Lenovo, HP và Dell. Intel cũng sản xuất các bo mạch chủ, ổ nhớ flash, card mạng.
+Intel được thành lập bởi các nhà tiên phong bán dẫn như Gordon Moore (tác giả luật Moore), Robert Noyce, Arthur Rock (nhà đầu tư mạo hiểm) và liên kết với sự lãnh đạo điều hành và tầm nhìn của Andrew Grove. Intel là một yếu tố then chốt trong sự trỗi dậy của Silicon Valley như một trung tâm công nghệ cao. Noyce là một trong những nhà phát minh chính của mạch tích hợp (microchip).
+Ban đầu, Intel là nhà sản xuất bộ nhớ SRAM và DRAM và đây là sự kiện tiêu biểu đầu tiên cho các nhà sản xuất chip bộ nhớ sau này. Dù Intel đã tạo ra chip vi xử lý thương mại đầu tiên trên thế giới vào năm 1971, nhưng cho đến khi thành công của máy tính cá nhân (PC) thì sản phẩm này mới trở thành mảng kinh doanh chính của hãng.
+Trong thập niên 1990, Intel đầu tư mạnh mẽ vào thiết kế vi xử lý mới, thúc đẩy sự phát triển nhanh chóng của ngành công nghiệp máy tính. Trong giai đoạn này, Intel trở thành nhà cung cấp chủ yếu cho các vi xử lý PC và được biết đến với các chiến lược gây tranh cãi và không công bằng trong việc bảo vệ vị thế thị trường của mình, đặc biệt đối với AMD, cũng như cuộc đấu tranh với Microsoft về kiểm soát ngành công nghiệp máy tính.
+Trung tâm Công nghệ mã nguồn mở tại Intel là nơi đăng cai các dự án PowerTOP và LatencyTOP và hỗ trợ các dự án mã nguồn mở khác như Wayland, Mesa, Threading Building Blocks (TBB) và Xen.
+
+
+== Lịch sử ==
+Tập đoàn Intel thành lập vào ngày 18 tháng 7 năm 1968, lúc đó là tập đoàn hợp nhất về thiết bị điện tử, sản xuất ở Santa Clara, California, Hoa Kỳ bởi nhà hoá học kiêm vật lý học Gordon E. Moore và Robert Noyce, sau khi họ đã rời khỏi công ty Fairchild Semiconductor.
+Năm 2020, Intel có 110 600 nhân viên tại tất cả văn phòng và cơ sở sản xuất kinh doanh trên toàn cầu. Năm 2005 doanh thu của Intel đạt hơn 38 tỷ USD, và Intel xếp thứ 50 trong các công ty lớn nhất thế giới.
+Intel sản xuất các sản phẩm như chip vi xử lý cho máy tính, bo mạch chủ, ổ nhớ flash, card mạng và các thiết bị máy tính khác. Intel cũng là công ty sản xuất thiết bị chất bán dẫn lớn nhất thế giới, và là nhà phát minh ra chuỗi vi mạch xử lý thế hệ x86 mà bộ xử lý tìm thấy ở các máy tính cá nhân. Intel làm ra các sản phẩm chip bo mạch chủ, card mạng, các mạch tổ hợp, chip nhớ, chip đồ họa, bộ xử lý nhúng và các thiết bị khác có liên quan đến công nghệ thông tin.
+Lúc đầu Gordon Moore và Robert Noyce muốn đặt tên cho công ty là "Moore Noyce". Tuy nhiên việc phát âm lại giống "more noise" và điều này không thích hợp cho một công ty điện tử. Họ cho rằng tiếng ồn là đặc trưng cho sự giao thoa xấu. Và họ đã sử dụng cái tên NM Electronics cho công ty đúng một năm trước khi quyết định gọi tên công ty là INTegrated ELectronics (hoặc Intel). Tuy nhiên tên "Intel" đã là một tên thương mại của một chuỗi hệ thống khách sạn và họ đã mua lại nó trước khi hoạt động công ty.
+
+
+=== Năm 1971: Bộ vi xử lý đầu tiên ===
+Bộ vi xử lý 4004 là bộ vi xử lý đầu tiên của Intel. Phát minh đột phá này nhằm tăng sức mạnh cho máy tính Busicom và dọn đường cho khả năng nhúng trí thông minh của con người vào trong các thiết bị vô tri cũng như các hệ thống máy tính cá nhân.
+
+Số lượng bóng bán dẫn: 2.300
+Tốc độ: 108KHz.
+
+
+=== Năm 1972 ===
+Bộ vi xử lý 8008 mạnh gấp đôi bộ vi xử lý 4004. Thiết bị Mark-8 được biết đến như là một trong những hệ thống máy tính đầu tiên dành cho người sử dụng gia đình – một hệ thống mà theo các tiêu chuẩn ngày nay thì rất khó để xây dựng, bảo trì và vận hành.
+
+Số lượng bóng bán dẫn: 3.500
+Tốc độ: 200KHz
+
+
+=== Năm 1974 ===
+Bộ vi xử lý 8080 đã trở thành bộ não của hệ thống máy tính cá nhân đầu tiên – Altair.
+
+Số lượng bóng bán dẫn: 6.000
+Tốc độ: 2 MHz
+
+
+=== Năm 1978 ===
+Một hợp đồng cung cấp sản phẩm quan trọng cho bộ phận máy tính cá nhân mới thành lập của IBM đã biến bộ vi xử lý 8088 trở thành bộ não của sản phẩm chủ đạo mới của IBM—máy tính IBM PC.
+
+Số lượng bóng bán dẫn: 29.000
+Tốc độ: 5 MHz, 8 MHz, 10 MHz
+
+
+=== Năm 1982 ===
+Bộ vi xử lý 286, còn được biết đến với cái tên là 80286, là bộ vi xử lý Intel đầu tiên có thể chạy tất cả các phần mềm được viết cho những bộ vi xử lý trước đó. Tính tương thích về phần mềm này vẫn luôn là một tiêu chuẩn bắt buộc trong họ các bộ vi xử lý của Intel.
+
+Số lượng bóng bán dẫn: 134.000
+Tốc độ: 6 MHz, 8 MHz, 10 MHz, 12,5 MHz
+
+
+== Xem thêm ==
+AMD
+Intel Core
+
+
+== Tham khảo ==
+
+
+== Liên kết ngoài ==
+
+Trang web chính thức của Intel
+
+--- Thực thể: Samsung Electronics ---
+Công ty Trách nhiệm hữu hạn Điện tử Samsung (Tiếng Hàn: 삼성전자 주식회사 hay 삼성전자, Hanja: 三星電子株式會社, Romaja quốc ngữ: Samseong-jeonja Jusik-hoisa, Tiếng Anh: Samsung Electronics Co., Ltd., Từ Hán-Việt: Tam Tinh điện tử chu thức hội xã) là một công ty điện tử đa quốc gia của Hàn Quốc có trụ sở chính được đặt tại thành phố Suwon, Gyeonggi-do. Đây là công ty con hàng đầu trong cơ cấu tổ chức của tập đoàn Samsung và đã trở thành công ty công nghệ lớn nhất trên thế giới tính theo doanh thu kể từ năm 2009. Samsung Electronics hiện đang điều hành rất nhiều các văn phòng đại diện, nhà máy lắp ráp sản phẩm và mạng lưới bán hàng trải rộng khắp 120 quốc gia và vùng lãnh thổ trên toàn cầu với số lượng nhân viên chính thức có thời điểm lên tới hàng trăm nghìn người. CEO của công ty năm 2012 là ông Kwon Oh-Hyun.
+Samsung vốn từ lâu đã là nhà sản xuất hàng đầu về các sản phẩm điện tử như: màn hình, pin lithium-ion, bán dẫn, chip, bộ nhớ, Ram và đĩa cứng cho các đối tác lớn trên toàn cầu như Apple, LG, Sony, HTC, Huawei, Xiaomi, Motorola và Nokia.
+Trong những năm gần đây, công ty đã tiến hành đa dạng hóa các mặt hàng điện tử tiêu dùng. Samsung Electronics hiện là nhà sản xuất thiết bị di động và điện thoại thông minh lớn nhất trên thế giới, tác nhân chính thúc đẩy cho thành quả này là sự phổ biến của các dòng thiết bị cao cấp Samsung Galaxy, đặc biệt với hai dòng Smartphone tiên phong trên thị trường là Galaxy S và Galaxy Note.
+Samsung Electronics đã và đang là nhà sản xuất tấm nền LCD lớn nhất thế giới kể từ năm 2002, nhà sản xuất TV lớn nhất thế giới từ năm 2006, nhà sản xuất điện thoại di động lớn nhất thế giới từ năm 2011 và nhà sản xuất chip bán dẫn lớn nhất thế giới năm 2021. Công ty là một phần rất quan trọng trong cấu trúc của cá nhân tập đoàn Samsung nói riêng cũng như nền kinh tế Hàn Quốc nói chung.
+
+
+== Lịch sử ==
+
+
+=== 1969 đến 1987 - Những năm đầu ===
+Samsung Electric Industries được thành lập vào năm 1969 ở Suwon, Hàn Quốc. Các sản phẩm trong thời kì đầu là điện tử thiết bị điện gia dụng bao gồm truyền hình, máy tính, tủ lạnh, máy lạnh và máy giặt. Năm 1970, tập đoàn mẹ Samsung tiến hành thành lập các công ty con khác: Samsung-NEC, gia nhập với NEC Corporation của Nhật Bản để sản xuất thiết bị gia dụng và thiết bị nghe nhìn. Năm 1974, tập đoàn mở rộng sang kinh doanh bán dẫn, mua lại từ Korea Semiconductor, một trong những công ty sản xuất chip đầu tiên trong cả đất nước vào thời điểm đó. Việc mua lại Korea Telecommunications, một nhà sản xuất hệ thống chuyển mạch điện tử, cũng đã hoàn thành vào đầu những năm 1980.
+Năm 1981, Samsung Electric Industries đã sản xuất hơn 10 triệu máy truyền hình trắng đen mỗi năm. Vào tháng 2 năm 1983, nhà sáng lập Samsung, Lee Byung-chul, thông báo về chiến lược kinh doanh mới, và ý định của ông khi đó là sẽ đưa Samsung sẽ trở thành một nhà cung cấp DRAM (bộ truy cập ngẫu nhiên động) hàng đầu thế giới. Kết quả, một năm sau, Samsung trở thành công ty thứ ba trên thế giới phát triển thành công DRAM 64kb. Năm 1988, Samsung Electric Industries sáp nhập với Samsung Semiconductor & Communications tạo thành Samsung Electronics.
+
+
+=== 1988 đến 1995 - Cuộc đấu tranh giành thị phần ===
+Samsung Electronics bán ra thiết bị điện thoại di động đầu tiên vào năm 1988, ở thị trường Hàn Quốc. Nhưng, doanh thu bán ra vào thời điểm đó rất thấp vì vào đầu những năm 1990, Motorola lúc đó là nhà sản xuất lớn nhất, chiếm thị phần lên đến 60% tại thị trường di động ở quốc gia này so với chỉ 10% của Samsung. Bộ phận điện thoại di động của Samsung cũng phải đấu tranh với hình ảnh chất lượng bình dân và sản phẩm kém cho đến giữa những năm thập kỷ 90, làm sao để thoát khỏi hình ảnh này là một vấn đề được tranh luận thường xuyên trong công ty.
+Vào tháng 2 năm 1995, Samsung Electronics thông báo đã hoàn tất việc mua lại 40% cổ phần của AST Research, một hãng sản xuất máy tính cá nhân Mỹ với số tiền vào khoảng hơn 378 triệu đô la.
+
+
+=== 1995 đến 2008 - Sản xuất linh kiện ===
+Đó là chiến lược kinh doanh lâu dài, được quyết định và tiến hành bởi chủ tịch Lee Kun-Hee, Samsung cần phải thay đổi mục tiêu, rời bỏ khỏi hình ảnh cũ nhàm chán và tiến tới những tham vọng mới, với những phương pháp và cách tiếp cận mới. Công ty hủy bỏ việc sản xuất của một số dòng sản phẩm bán không chạy và, thay vì theo đuổi một quá trình thiết kế, sản xuất các linh kiện và đầu tư cho các công ty khác, Samsung vạch ra chiến lược tự chủ công nghệ cho riêng mình. Ngoài ra, Samsung cũng đưa ra kế hoạch 10 năm để dần loại bỏ hình ảnh "thương hiệu bình dân" hay "sản phẩm chất lượng thấp", chủ tịch Lee tham vọng sẽ một ngày sẽ đưa Samsung lên sánh vai, thách thức và cạnh tranh với Sony - một trong những công ty sản xuất hàng điện tử tiêu dùng lớn nhất thế giới lúc bấy giờ. Chiến lược này sau đó đã gặt hái được rất nhiều thành công cho Samsung vào cuối những năm 2000.
+Bước sang thế kỷ 21, Samsung chuyển từ nội địa sang thị trường tiêu dùng quốc tế, công ty nghĩ ra kế hoạch tài trợ cho một sự kiện thể thao lớn để ra mắt công chúng. Một trong những sự k
+
+--- Thực thể: Tencent ---
+Tencent Holdings Limited (tiếng Trung: 腾讯控股有限公司; bính âm: Téngxùn kònggǔ yǒuxiàn gōngsī ) hay là Tencent (tiếng Trung: 腾讯; bính âm: Téngxùn) là một công ty cổ phần đầu tư Trung Quốc với các công ty con cung cấp dịch vụ truyền thông, giải trí, Internet và dịch vụ giá trị gia tăng điện thoại di động, và hoạt động các dịch vụ quảng cáo trực tuyến tại Trung Quốc. Tập đoàn này sở hữu mạng xã hội WeChat với hơn 1 tỷ người sử dụng. Trụ sở chính của công ty ở Nam Sơn, Thâm Quyến, Quảng Đông, Trung Quốc.
+Ngày 21 tháng 11 năm 2017, Tencent đã được định giá 523 tỉ USD, hơn Facebook 1 tỉ USD. Đồng thời hãng quản lý mạng xã hội WeChat cũng đánh bại cả Alibaba để trở thành công ty Trung Quốc đầu tiên cán mốc 500 tỉ USD về giá trị thị trường.
+Tencent là nhà cung cấp trò chơi điện tử lớn nhất thế giới, đồng thời là một trong những công ty có giá trị tài chính cao nhất.Các dịch vụ của Tencent bao gồm mạng xã hội, âm nhạc, thương mại điện tử, trò chơi di động, dịch vụ internet, hệ thống thanh toán, điện thoại thông minh và trò chơi trực tuyến nhiều người chơi.
+
+
+== Lịch sử hình thành ==
+Người sáng lập ra Tencent là Mã Hóa Đằng, biệt danh "PonyMa", và ông là người đàn ông giàu nhất Trung Quốc, với tổng tài sản khoảng 50 tỉ USD, ông trở thành cái tên được quan tâm nhiều nhất trong giới công nghệ toàn cầu hiện nay. Năm 1993, ngay sau khi tốt nghiệp Đại học Thâm Quyến với bằng khoa học máy tính, ông Ma làm việc trong lĩnh vực kinh doanh máy nhắn tin. Tuy nhiên, chỉ năm năm sau khi rời trường đại học, ông đã thành lập Tencent và bắt đầu tập trung vào nền tảng truyền thông với mục đích làm cho Tencent thành công ty công nghệ hàng đầu.
+Những ngày đầu hoạt động của Tencent không hề suôn sẻ khi thường bị xem là một bản sao và vướng phải cáo buộc sao chép các sản phẩm phương Tây, tìm cách làm cho chúng thích nghi với thị trường Đại lục. Ví dụ, nền tảng nhắn tin máy tính của Tencent được cho là giống với sản phẩm tương tự của AOL, một công ty cung cấp dịch vụ internet toàn cầu có trụ sở tại Mỹ. Nhưng sau đó, Tencent đã có một cuộc "tấn công vàng" với WeChat, ứng dụng nhắn tin di động đang được sử dụng bởi gần 1 tỉ người, chủ yếu là ở Trung Quốc. Song, WeChat không chỉ là tin nhắn, nó còn phục vụ như một hệ sinh thái bao gồm cả mạng tìm kiếm, mạng xã hội và nền tảng thanh toán.
+
+
+== Tập đoàn lớn thứ 5 toàn cầu ==
+Theo Bloomberg, giới đầu tư đang đổ xô mua cổ phiếu hãng quản lý mạng xã hội lớn của Trung Quốc. Cổ phiếu Tencent tăng 127.5% từ đầu năm 2017, đẩy giá trị thị trường công ty lên khoảng 292 tỉ USD tính đến hết ngày giao dịch 21/11/2017. Song giá cổ phiếu lên cao cũng khiến định giá công ty bay xa. Hiện Tencent được giao dịch ở mức gấp 50 lần so với doanh thu, cao hơn mức trung bình là 30 lần doanh thu trong hai năm qua. Hiện chỉ có bốn công ty lớn hơn Tencent là Apple, Alphabet, Microsoft và Amazon.
+
+
+== Những mảng kinh doanh của Tencent ==
+WeChat không phải là yếu tố duy nhất khiến các nhà đầu tư hứng thú với Tencent. "Gã khổng lồ" công nghệ Trung Quốc đã mở rộng hoạt động sâu hơn vào các lĩnh vực khác bao gồm trò chơi trên điện thoại thông minh, thanh toán di động và nhạc trực tuyến. Tất cả các mảng kinh doanh này đã giúp Tencent đạt lợi nhuận kỷ lục trong năm 2017. Ngoài ra, Tencent cũng đang đầu tư mạnh vào các công ty công nghệ khác trên thế giới. Được biết, Tencent đang nắm giữ 5% cổ phần của Tesla và 12% cổ phần của Snap, công ty mẹ của ứng dụng SnapChat.
+
+
+== Sản phẩm và dịch vụ ==
+
+
+=== Truyền thông xã hội ===
+Ra mắt vào tháng 2 năm 1999,Tencent QQ là ứng dụng đầu tiên và đáng chú ý nhất của Tencent, QQ là một trong những nền tảng nhắn tin phổ biến nhất tại thị trường TQ. Tính đến ngày 31 tháng 12 năm 2010, đã có 647,6 triệu tài khoản người dùng Tencent QQ đang hoạt động. Việc đó Đã đưa Tencent QQ trở thành cộng đồng trực tuyến lớn nhất thế giới vào thời điểm đó. WeChat là một ứng dụng di động với tính năng nhắn tin thoại. Đây là ứng dụng di động xã hội phổ biến nhất ở Trung Quốc và một số cộng đồng người Hoa ở nước ngoài, chẳng hạn như Malaysia.
+
+
+==== Vốn Đầu tư nước ngoài ====
+
+
+== Tham khảo ==
+
+
+== Liên kết ngoài ==
+Website chính thức
+Tencent Holdings Limited
+
+--- Thực thể: Alibaba Group ---
+Alibaba Group Holding Limited (tiếng Trung: 阿里巴巴集团控股有限公司) được biết đến với tên gọi Tập đoàn Alibaba hay Alibaba là một công ty công nghệ đa quốc gia của Trung Quốc chuyên về thương mại điện tử, bán lẻ, Internet và công nghệ. Được thành lập vào ngày 28 tháng 6 năm 1999 tại Hàng Châu, Chiết Giang, công ty cung cấp các dịch vụ bán hàng từ khách hàng đến khách hàng (C2C), từ doanh nghiệp đến khách hàng (B2C) và từ doanh nghiệp đến doanh nghiệp (B2B) thông qua các thị trường Trung Quốc và toàn cầu, cũng như các dịch vụ tiêu dùng địa phương, truyền thông và giải trí kỹ thuật số, hậu cần và điện toán đám mây. Công ty sở hữu và điều hành một danh mục đầu tư đa dạng các công ty trên toàn thế giới trong nhiều lĩnh vực kinh doanh.
+Vào ngày 19 tháng 9 năm 2014, đợt chào bán cổ phiếu lần đầu ra công chúng (IPO) của Alibaba tại Sở giao dịch chứng khoán New York đã huy động được 25 tỷ đô la Mỹ, đưa giá trị thị trường của công ty lên 231 tỷ đô la Mỹ và trở thành đợt IPO lớn nhất trong lịch sử thế giới vào thời điểm đó. Đây là một trong 10 tập đoàn có giá trị nhất, và được xếp hạng là công ty đại chúng lớn thứ 31 trên thế giới trong danh sách Forbes Global 2000 năm 2020. Vào tháng 1 năm 2018, Alibaba trở thành công ty châu Á thứ hai vượt qua mốc định giá 500 tỷ đô la Mỹ, sau đối thủ cạnh tranh Tencent. Tính đến  năm 2022, Alibaba có giá trị thương hiệu toàn cầu cao thứ chín.
+
+Alibaba là một trong những nhà bán lẻ và công ty thương mại điện tử lớn nhất thế giới. Năm 2020, công ty này cũng được xếp hạng là công ty trí tuệ nhân tạo lớn thứ năm. Công ty này sở hữu các thị trường B2B (Alibaba.com), C2C (Taobao) và B2C (Tmall) lớn nhất thế giới. Công ty này đã và đang mở rộng sang ngành công nghiệp truyền thông, với doanh thu tăng gấp ba lần điểm phần trăm mỗi năm. Nó cũng lập kỷ lục trong phiên bản Ngày Độc Thân của Trung Quốc năm 2018, ngày mua sắm trực tuyến và ngoại tuyến lớn nhất thế giới.
+
+
+== Tên gọi ==
+Tên công ty được lấy từ nhân vật Ali Baba trong tuyển tập truyện dân gian Trung Đông Nghìn lẻ một đêm vì tính phổ quát của nó. Như Jack Ma, một trong những người sáng lập, đã trả lời Lorraine Hahn trên TalkAsia:
+
+Một ngày nọ, tôi đang ở San Francisco trong một quán cà phê, và tôi nghĩ Alibaba là một cái tên hay. Rồi một nữ phục vụ đến, và tôi hỏi cô ấy có biết về Alibaba không? Cô ấy nói có. Tôi hỏi cô ấy biết gì về Alibaba, và cô ấy nói 'Vừng ơi, mở cửa'. Và tôi nói đúng rồi, đây chính là cái tên! Sau đó, tôi ra đường và tìm 30 người và hỏi họ, 'Các bạn có biết Alibaba không?' Người từ Ấn Độ, người từ Đức, người từ Tokyo và Trung Quốc... Tất cả họ đều biết về Alibaba. Alibaba - 'Vừng ơi, mở cửa'. Alibaba và 40 tên cướp. Alibaba không phải là một tên cướp. Alibaba là một người tốt bụng, một doanh nhân thông minh, và anh ấy đã giúp đỡ ngôi làng. Vì vậy... dễ đánh vần, và được biết đến trên toàn cầu. Alibaba - Vừng ơi, mở cửa cho các công ty vừa và nhỏ. Chúng tôi cũng đã đăng ký tên AliMama, phòng trường hợp có ai đó muốn kết hôn với chúng tôi!
+
+
+== Lịch sử ==
+
+
+=== Những năm đầu ===
+Vào ngày 28 tháng 6 năm 1999, Jack Ma cùng 17 người bạn và sinh viên đã thành lập Alibaba.com, một trang web thương mại điện tử B2B có trụ sở tại Trung Quốc, trong căn hộ của ông ở Hàng Châu. Vào tháng 10 năm 1999, Alibaba nhận được khoản đầu tư 25 triệu đô la Mỹ từ Investor AB của gia tộc Wallenberg người Thụy Điển, Goldman Sachs và SoftBank. Năm 1999, Investor AB của Wallenberg sở hữu 6% cổ phần. Alibaba.com được kỳ vọng sẽ cải thiện thị trường thương mại điện tử trong nước và hoàn thiện nền tảng thương mại điện tử cho các doanh nghiệp Trung Quốc, đặc biệt là các doanh nghiệp vừa và nhỏ (SMEs), nhằm giúp xuất khẩu các sản phẩm của Trung Quốc ra thị trường toàn cầu cũng như giải quyết các thách thức của Tổ chức Thương mại Thế giới (WTO). Năm 2002, Alibaba.com đã có lãi ba năm sau khi ra mắt. Jack Ma muốn cải thiện hệ thống thương mại điện tử toàn cầu, vì vậy từ năm 2003 trở đi, Alibaba đã ra mắt Taobao Marketplace, Alipay, Alimama.com và Lynx.
+Khi eBay tuyên bố mở rộng sang Trung Quốc vào năm 2003, Jack Ma coi công ty Mỹ là đối thủ cạnh tranh nước ngoài và từ chối việc eBay mua lại công ty con Taobao của Alibaba. Bằng cách áp dụng các công nghệ hiện có, giành được lòng tin trên thị trường thương mại điện tử Trung Quốc và mở rộng bằng cách thống trị thị trường với mức lỗ trước khi thu hồi vốn từ các dịch vụ bổ sung, các công ty con của Alibaba đã vượt trội hơn eBay trên thị trường thương mại điện tử Trung Quốc, giành được tỷ lệ người tiêu dùng ngày càng tăng từ eBay. Công ty con Taobao của Alibaba sau đó đã buộc eBay phải rời khỏi thị trường Trung Quốc, với việc eBay đóng cửa đơn vị China Web không có lãi, mặc dù hai công ty đã hòa vốn sáu năm sau đó.
+
+
+=== Mở rộng và IPO tại Mỹ ===
+Năm 2005, Yahoo! đầu tư vào Alibaba thông qua cấu trúc thực thể lợi ích biến đổi (VIE), mua 40% cổ phần của công ty với giá 1 tỷ đô la Mỹ. Kết quả là Yahoo! đã thu về 10 tỷ đô la Mỹ chỉ riêng từ đợt IPO của Alibaba. Năm 2012, China Investment Corporation dẫn đầu một 
+
+--- Thực thể: Baidu ---
+Công ty hữu hạn kỹ thuật mạng trực tuyến Bách Độ (Trung văn giản thể: 百度在线网络技术（北京）有限公司, Trung văn phồn thể: 百度在線網絡技術（北京）有限公司, Hán Việt: Bách Độ tại tuyến võng lạc kĩ thuật (Bắc Kinh) hữu hạn công ty), gọi tắt là Bách Độ hay Baidu, là công ty cung cấp dịch vụ tìm kiếm dữ liệu trên mạng lớn nhất Trung Quốc đại lục, do Lý Ngạn Hoành và Từ Dũng thành lập vào tháng 1 năm 2000 tại Trung Quan Thôn, Bắc Kinh, Trung Quốc.
+Tên gọi "Bách Độ" bắt nguồn từ một câu trong bài từ "Thanh ngọc án - Nguyên tịch" của thi nhân Nam Tống Tân Khí Tật: "Chúng lý tầm tha thiên bách độ, mạch nhiên hồi đầu, na nhân khước tại đăng hỏa lan san xứ" (chữ Hán: 眾裡尋他千百度，驀然回首，那人卻在，燈火闌珊處).
+Baidu cung cấp một danh mục hơn 740 triệu trang web, 80 triệu hình ảnh và 10 triệu tập tin đa truyền thông. Baidu chia sẻ những nội dung đa truyền thông như nhạc MP3, phim ảnh và là trang web đầu tiên ở Trung Quốc cung cấp giao thức ứng dụng không dây (WAP) và trình tìm kiếm di động dùng trên thiết bị kỹ thuật số hỗ trợ cá nhân.
+Baidu Baike là từ điển bách khoa toàn thư tương tự như Wikipedia. Tuy nhiên, khác với Wikipedia, theo quy định ở Trung Quốc, chỉ có những thành viên đã đăng ký mới có thể sửa đổi. Quyền truy cập vào Wikipedia bị chặn gián đoạn hay một số bài viết bị lọc tại Trung Quốc từ năm 2004. Đã có nhiều tranh cãi xoay quanh mức độ hợp tác giữa Baidu với vấn đề kiểm duyệt của chính quyền Trung Quốc.
+Baidu là công cụ tìm kiếm lớn thứ 2 trên thế giới - sau Google, nắm giữ 76.05% thị phần tìm kiếm ở Trung Quốc. Tháng 12 năm 2007, Baidu trở thành công ty Trung Quốc đầu tiên có tên trong chỉ số NASDAQ-100. Tháng 5 năm 2018, vốn hóa thị trường của công ty đạt đỉnh 99 tỷ USD. Tháng 10 năm 2018, Baidu lần đầu tham gia vào tổ chức Partnership on AI của Mỹ.
+
+
+== Lịch sử hình thành ==
+
+
+== Sản phẩm và dịch vụ ==
+
+
+== Kiểm duyệt ==
+
+
+== Sự tranh cãi ==
+
+
+== Chú thích ==
+

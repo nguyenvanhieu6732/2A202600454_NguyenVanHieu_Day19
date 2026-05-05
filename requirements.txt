@@ -1,0 +1,10 @@
+neo4j
+openai
+langchain
+langchain-openai
+chromadb
+pandas
+python-dotenv
+networkx
+matplotlib
+jupyter

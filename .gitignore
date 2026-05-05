@@ -1,0 +1,16 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore data files
+*.db
+*.csv
+
+# Ignore credentials
+.env
+
+neo4j_data/
+chroma_db/
